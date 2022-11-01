@@ -391,7 +391,7 @@ contact page.
 */
 .contact{
     display: flex;
-    height: 70vh;
+    padding:30px;
     width: 80vw;
     margin: auto;
 }
