@@ -151,7 +151,7 @@ main page
 }
 
 .container{
-    background-image: url(background.jpg);
+    background-image: url(/background.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -195,17 +195,12 @@ content boxes
 .
 .
 */
-.back_vedio{ 
-        
-    height: 35vh;
-    background-color: rgba(0, 100, 0, 0.247);
-}
 .blocks{
-        padding-left: 10vw;
-        padding-right: 10vw;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-    }
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 .blocks h1{
    text-align: center;
    font-size: 4vw;
@@ -391,7 +386,7 @@ contact page.
 */
 .contact{
     display: flex;
-    padding:30px;
+    padding: 30px;
     width: 80vw;
     margin: auto;
 }
@@ -515,7 +510,7 @@ border: 1px solid green;
   @media only screen and (max-width: 600px) {
     /*main page*/
     .container{
-        background-image: url(background2.jpg);
+        background-image: url(/background2.jpg);
         background-size: cover;
         width: 100%;
         height: 80vh;
@@ -586,7 +581,7 @@ border: 1px solid green;
         padding-left: 2vw;
     }
     .back_vedio{
-        height: 6vh;
+        height: 12vh;
         background-color: rgba(0, 100, 0, 0.247);
     
     }
@@ -697,9 +692,7 @@ border: 1px solid green;
     }
     /*contact*/
     .gmap_iframe{
-        margin-left:-20px;
-        padding: 4vh;
-        width: 90vw;
+        width: 80vw;
         height: 30vh;
         margin: auto;
     }
