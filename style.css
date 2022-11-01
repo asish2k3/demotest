@@ -697,6 +697,7 @@ border: 1px solid green;
     }
     /*contact*/
     .gmap_iframe{
+        margin-left:-20px;
         padding: 4vh;
         width: 90vw;
         height: 30vh;
