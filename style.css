@@ -201,6 +201,12 @@ content boxes
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+.blocks{
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
 .blocks h1{
    text-align: center;
    font-size: 4vw;
